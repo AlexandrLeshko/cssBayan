@@ -114,9 +114,11 @@ button:focus .material-symbols-rounded{transform: rotateZ(45deg);}
 
 @media (min-width: 320px) {
 	body {background: lightskyblue;}
+	span {font-size: 2.4vh}
 }
 @media (min-width: 820px) {
 	body {background: blue;}
+	span {font-size: 2.2vh}
 }
 @media (min-width: 1915px) {
 	body {background: navy;}
@@ -125,4 +127,5 @@ button:focus .material-symbols-rounded{transform: rotateZ(45deg);}
 	button:hover{height: 40vh;}
 	button:hover .img{opacity: 100%;}
 	button:hover .material-symbols-rounded{transform: rotateZ(45deg);}
+	span {font-size: 2vh}
 }
