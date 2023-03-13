@@ -87,7 +87,6 @@ button {
 span {
 	height: 100%;
 	line-height: 5vh;
-	font-size: 2vh;
 	color: blue;
 }
 .img {
@@ -100,11 +99,10 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
-.cross {
-	font-weight: 600;
+.material-symbols-rounded {
 	height: 100%;
 	line-height: 5vh;
-	font-size: 4vh;
+	font-size: 3vh;
 	opacity: 0;
 }
 
@@ -112,7 +110,7 @@ button:active img{opacity: 50%;}
 button:focus{height: 40vh;}
 button:focus span{color: #000;}
 button:focus .img{opacity: 100%;}
-button:focus .cross{transform: rotateZ(45deg);}
+button:focus .material-symbols-rounded{transform: rotateZ(45deg);}
 
 @media (min-width: 320px) {
 	body {background: lightskyblue;}
@@ -123,8 +121,8 @@ button:focus .cross{transform: rotateZ(45deg);}
 @media (min-width: 1915px) {
 	body {background: navy;}
 	.bayan:hover span{color: #000;}
-	.bayan:hover .cross{opacity: 100%;}
+	.bayan:hover .material-symbols-rounded{opacity: 100%;}
 	button:hover{height: 40vh;}
 	button:hover .img{opacity: 100%;}
-	button:hover .cross{transform: rotateZ(45deg);}
+	button:hover .material-symbols-rounded{transform: rotateZ(45deg);}
 }
