@@ -106,12 +106,6 @@ img {
 	opacity: 0;
 }
 
-button:active img{opacity: 50%;}
-button:focus{height: 40vh;}
-button:focus span{color: #000;}
-button:focus .img{opacity: 100%;}
-button:focus .material-symbols-rounded{transform: rotateZ(45deg);}
-
 @media (min-width: 320px) {
 	body {background: lightskyblue;}
 	span {font-size: 2.4vh}
@@ -131,3 +125,11 @@ button:focus .material-symbols-rounded{transform: rotateZ(45deg);}
 	body {background: navy;}
 	span {font-size: 2vh}
 }
+
+button:active img{opacity: 50%;}
+button:active span{color: #aaa!important; transition: color 200ms}
+button:active .material-symbols-rounded{color: #aaa!important; transition: color 200ms}
+button:focus{height: 40vh;}
+button:focus span{color: #000;}
+button:focus .img{opacity: 100%;}
+button:focus .material-symbols-rounded{transform: rotateZ(45deg);}
